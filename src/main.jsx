@@ -14,7 +14,7 @@ import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import FAQ from './pages/FAQ';
 import Login from './pages/authPage/login.jsx'
-import Registration from './pages/authPage/registration.jsx'
+// import Registration from './pages/authPage/registration.jsx'
 import Profile from './components/homePage/Profile.jsx'
 import Messages from './components/homePage/Messages.jsx'
 import Category from './components/homePage/Category';
@@ -149,10 +149,10 @@ const router = createBrowserRouter([
     path: '/login',
     element: <Login/>
   },
-  {
-    path: '/registration',
-    element: <Registration/>
-  }
+  // {
+  //   path: '/registration',
+  //   element: <Registration/>
+  // }
 ])
 
 
