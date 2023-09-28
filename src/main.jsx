@@ -13,7 +13,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import FAQ from './pages/FAQ';
-import Login from './pages/authPage/login.jsx'
+// import Login from './pages/authPage/login.jsx'
 // import Registration from './pages/authPage/registration.jsx'
 import Profile from './components/homePage/Profile.jsx'
 import Messages from './components/homePage/Messages.jsx'
@@ -145,10 +145,10 @@ const router = createBrowserRouter([
     ],
     errorElement: <ErrorPage/>
   },
-  {
-    path: '/login',
-    element: <Login/>
-  },
+  // {
+  //   path: '/login',
+  //   element: <Login/>
+  // },
   // {
   //   path: '/registration',
   //   element: <Registration/>
